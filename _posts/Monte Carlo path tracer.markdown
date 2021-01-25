@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 6
+date: 2020-01-18
+img: mc.png
+alt: image-alt
+project-date: September 2020
+category: C++, Computer Graphics
+description: A monte carlo path tracer utilizing photon mapping and heavy parallelization. (https://github.com/veiyas/Monte-Carlo-Raytracer)
+---
