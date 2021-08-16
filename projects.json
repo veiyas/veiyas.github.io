@@ -1,0 +1,46 @@
+{
+    "entries": [
+        {
+            "title": "Visualisation and data mining of the past decade's top songs",
+            "description": "An interactive visualisation of the past decade's top songs with data from Spotify. A web app using three different visualisation elements, granting the ability to analyse the musical trends of the last ten years. The implemented clustering algorithm DBSCAN showed that 92% of all songs share similar attributes, proving that most top hits really do sound the same. Implementation details are in the report and instructions on how to run the web app are on the repo.",
+            "github": "https://github.com/veiyas/Spotify-top-50-through-the-years",
+            "report": "https://raw.githubusercontent.com/veiyas/Spotify-top-50-through-the-years/main/Infovis_projektrapport.pdf",
+            "image": "assets/images/projects/infovis.png"
+        },
+        {
+            "title": "Visualisation of a series of earthquakes hitting a fictional city",
+            "description": "An interactive visualisation of the impact a series of earthquakes has on the fictional city of St. Himark. Three different visualisation elements are used to detail the damage to different kinds of infrastructure in the city's buroughs. The report details how to use the visualisation's interactive elements to gain the necessary information to guide an efficient emergency response.",
+            "github": "https://github.com/veiyas/vast-challenge-2019-mc1",
+            "report": "https://raw.githubusercontent.com/veiyas/vast-challenge-2019-mc1/main/Vast%20challenge%202019.pdf",
+            "image": "assets/images/projects/advancedinfovis.png"
+        },
+        {
+            "title": "Monte Carlo Path Tracer",
+            "description": "A Monte Carlo path tracer used to render photo-realistic images. Features include photon mapping, aggressive multithreading, intense computing power usage and diffuse reflection approximation using stochastic methods. Written exclusively in C++, details and additional rendered images are in the report.",
+            "github": "https://github.com/veiyas/Monte-Carlo-Raytracer",
+            "report": "https://raw.githubusercontent.com/veiyas/Monte-Carlo-Raytracer/master/Monte_Carlo_Ray_Tracer.pdf",
+            "image": "assets/images/projects/mc.png"
+        },
+        {
+            "title": "Image reproduction with flags",
+            "description": "An image reproduction algorithm using flags, written in MATLAB. The image is reproduced as a mosaic with each cell being replaced by the perceptually closest flag according to either the lowest CIELAB difference or the lowest mean difference in a full-reference S-CIELAB comparison. Two different optimisations, a general one and image specific one, was implemented to increase reproduction efficiency. The quality of the reproductions were measured with signal-to-noise ratio, structural similarity, mean and max full-reference S-CIELAB differences. More details and rendered images are in the report.",
+            "github": "https://github.com/veiyas/Bildreppen/tree/main/Projekt",
+            "report": "https://raw.githubusercontent.com/veiyas/Bildreppen/main/Projekt/Bildrep_projektrapport.pdf",
+            "image": "assets/images/projects/bildrep.png"
+        },
+        {
+            "title": "Domedagen - Bachelor's project",
+            "description": "A multi-player game developed for the dome at Visualiseringscenter C. An almost full stack project including computer node clusters, real-time communication between web-based interfaces and C++ applications and high-performance data structures and algorithms. Written mainly in C++, JavaScript, HTML, CSS. More details in the report.",
+            "github": "https://github.com/veiyas/DomeDagen",
+            "report": "https://raw.githubusercontent.com/veiyas/DomeDagen/master/Kandidatproject.pdf",
+            "image": "assets/images/projects/domedagen.png"
+        },
+        {
+            "title": "Facial recognition",
+            "description": "A facial recognition script using linear discriminant and principal component analysis, written exclusively in MATLAB. Datasets and algorithms are detailed in the report.",
+            "github": "https://github.com/veiyas/Face-detector-TNM034",
+            "report": "https://raw.githubusercontent.com/veiyas/Face-detector-TNM034/master/FaceRecognitionTNM034.pdf",
+            "image": "assets/images/projects/facialrecognition.png"
+        }
+    ]
+}

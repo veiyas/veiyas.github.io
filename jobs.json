@@ -1,0 +1,28 @@
+{
+    "entries": [
+        {
+            "jobTitle": "Software Engineering Internship",
+            "jobPlace": "Maxar",
+            "timespan": "June 2021 - August 2021",
+            "jobDescription": "Development of a new, lightweight web application allowing quality control of complex GIS-datasets and visualisation of drone-captured video sequences."
+        },
+        {
+            "jobTitle": "Lab Assistant (TA)",
+            "jobPlace": "Linköping University",
+            "timespan": "October 2020 - December 2020",
+            "jobDescription": "Teaching and examining students in three different laboratory sessions in the course Programming in C++."
+        },
+        {
+            "jobTitle": "Lab Assistant (TA)",
+            "jobPlace": "Linköping University",
+            "timespan": "October 2019 - December 2019",
+            "jobDescription": "Teaching and examining students in three different laboratory sessions in the course Introduction to Programming."
+        },
+        {
+            "jobTitle": "Swimming and Wellness host",
+            "jobPlace": "Medley",
+            "timespan": "October 2015 - October 2018",
+            "jobDescription": "Reception with responsibility of sales, customer service, administration of memberships and booking of pools, group training and other facilities, lifeguard duties."
+        }
+    ]
+}
