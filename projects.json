@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "title": "Binary KLV-data parser",
+            "description": "A node module which can be used to parse binary KLV data following the MISB0601.17 standard. The binary KLV packets are parsed into an array of JS objects. The package supports whole KLV binaries as input but filestreams can be piped to the parser for efficient parsing as well.",
+            "github": "https://github.com/veiyas/klv-parser-misb0601",
+            "image": "assets/images/projects/klv.png",
+            "npm": "https://www.npmjs.com/package/klv-parser-misb"
+        },
+        {
             "title": "Visualisation and data mining of the past decade's top songs",
             "description": "An interactive visualisation of the past decade's top songs with data from Spotify. A web app using three different visualisation elements, granting the ability to analyse the musical trends of the last ten years. The implemented clustering algorithm DBSCAN showed that 92% of all songs share similar attributes, proving that most top hits really do sound the same. Implementation details are in the report and instructions on how to run the web app are on the repo.",
             "github": "https://github.com/veiyas/Spotify-top-50-through-the-years",

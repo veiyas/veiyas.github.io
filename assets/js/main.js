@@ -23,8 +23,9 @@ $(window).on('load', function () {
                 <div class="desc text-left">                                    
                     <p>${val.description}</p>
                 </div>        
-                <a class="more-link" href="${val.github}" target="_blank"><i class="fas fa-external-link-alt"></i>Github Repo&nbsp;&nbsp;&nbsp;</a>
-                <a class="more-link" href="${val.report}" target="_blank"><i class="fas fa-external-link-alt"></i>Report</a>                 
+                <a class="more-link" href="${val.github}" target="_blank" ${val.github ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>Github Repo&nbsp;&nbsp;&nbsp;</a>
+                <a class="more-link" href="${val.report}" target="_blank" ${val.report ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>Report</a>                 
+                <a class="more-link" href="${val.npm}" target="_blank" ${val.npm ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>NPM</a>                 
                 </div>
                 <hr class="divider" />`))
             } else {
@@ -39,8 +40,9 @@ $(window).on('load', function () {
                         <h3 class="title">${val.title}</h3>
                         <p class="mb-2">${val.description}</p>
                         <p>
-                        <a class="more-link" href="${val.github}" target="_blank"><i class="fas fa-external-link-alt"></i>Github Repo&nbsp;&nbsp;&nbsp;</a>
-                        <a class="more-link" href="${val.report}" target="_blank"><i class="fas fa-external-link-alt"></i>Report</a>                 
+                        <a class="more-link" href="${val.github}" target="_blank"  ${val.github ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>Github Repo&nbsp;&nbsp;&nbsp;</a>
+                        <a class="more-link" href="${val.report}" target="_blank"  ${val.report ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>Report</a>                 
+                        <a class="more-link" href="${val.npm}" target="_blank"  ${val.npm ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>Report</a>                 
                     </div>
                 </div>
                 <hr class="divider" />`))
