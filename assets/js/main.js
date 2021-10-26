@@ -16,7 +16,7 @@ $(window).on('load', function () {
                     <img class="img-fluid project-image rounded shadow-sm" src="${val.image}" alt="infovis.png" />
                     </a>
                     <div class="ribbon">
-                        <div class="text">New</div>
+                        <div class="text">Featured</div>
                     </div>
                 </div>                
                 <h3 class="title mb-3">${val.title}</a></h3>                    

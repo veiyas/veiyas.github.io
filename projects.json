@@ -1,6 +1,20 @@
 {
     "entries": [
         {
+            "title": "Art replicating AI",
+            "description": "An AI, implemented using deep learning in a convolutional neural network, capable of learning the style of an arbitrary image and applying it to the content in another, arbitrary image. The network was implemented using Tensorflow in Python, running on a google cloud computing VM with a powerful GPU optimized for deep learning. Many generated images can be seen in the report.",
+            "github": "https://github.com/veiyas/ARTisan",
+            "image": "assets/images/projects/artisan.png",
+            "report": "Coming soon!"
+        },
+        {
+            "title": "HDR and tone-mapping",
+            "description": "An implementation of high dynamic range image acquisition and evaluation of different tone-mapping methods. Implemented in MATLAB. More examples and tone-mapped images can be seen in the report.",
+            "github": "https://github.com/pannacotta98/hdr-tone-mapping",
+            "image": "assets/images/projects/hdr.png",
+            "report": "Coming soon!"
+        },
+        {
             "title": "Binary KLV-data parser",
             "description": "A node module which can be used to parse binary KLV data following the MISB0601.17 standard. The binary KLV packets are parsed into an array of JS objects. The package supports whole KLV binaries as input but filestreams can be piped to the parser for efficient parsing as well.",
             "github": "https://github.com/veiyas/klv-parser-misb0601",
