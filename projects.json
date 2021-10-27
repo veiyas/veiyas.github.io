@@ -5,14 +5,14 @@
             "description": "An AI, implemented using deep learning in a convolutional neural network, capable of learning the style of an arbitrary image and applying it to the content in another, arbitrary image. The network was implemented using Tensorflow in Python, running on a google cloud computing VM with a powerful GPU optimized for deep learning. Many generated images can be seen in the report.",
             "github": "https://github.com/veiyas/ARTisan",
             "image": "assets/images/projects/artisan.png",
-            "report": "Coming soon!"
+            "report": "tba"
         },
         {
             "title": "HDR and tone-mapping",
             "description": "An implementation of high dynamic range image acquisition and evaluation of different tone-mapping methods. Implemented in MATLAB. More examples and tone-mapped images can be seen in the report.",
             "github": "https://github.com/pannacotta98/hdr-tone-mapping",
             "image": "assets/images/projects/hdr.png",
-            "report": "Coming soon!"
+            "report": "tba"
         },
         {
             "title": "Binary KLV-data parser",

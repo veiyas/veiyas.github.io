@@ -18,31 +18,18 @@ $(window).on('load', function () {
                     <div class="ribbon">
                         <div class="text">Featured</div>
                     </div>
-                </div>                
-                <h3 class="title mb-3">${val.title}</a></h3>                    
-                <div class="desc text-left">                                    
-                    <p>${val.description}</p>
-                </div>        
-                <a class="more-link" href="${val.github}" target="_blank" ${val.github ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>Github Repo&nbsp;&nbsp;&nbsp;</a>
-                <a class="more-link" href="${val.report}" target="_blank" ${val.report ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>Report</a>                 
-                <a class="more-link" href="${val.npm}" target="_blank" ${val.npm ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>NPM</a>                 
+                </div>
+                ${printEntry(val)}                 
                 </div>
                 <hr class="divider" />`))
             } else {
-            console.log(val.github)
-
                 projectsContainer.append($(`<div class="item featured text-center">
                 <div class="item row">
                     <a class="col-md-4 col-12">
                     <img class="img-fluid project-image rounded shadow-sm" src="${val.image}" alt="domedagen.png" />
                     </a>
                     <div class="desc col-md-8 col-12 text-left">
-                        <h3 class="title">${val.title}</h3>
-                        <p class="mb-2">${val.description}</p>
-                        <p>
-                        <a class="more-link" href="${val.github}" target="_blank"  ${val.github ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>Github Repo&nbsp;&nbsp;&nbsp;</a>
-                        <a class="more-link" href="${val.report}" target="_blank"  ${val.report ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>Report</a>                 
-                        <a class="more-link" href="${val.npm}" target="_blank"  ${val.npm ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>Report</a>                 
+                        ${printEntry(val)}            
                     </div>
                 </div>
                 <hr class="divider" />`))
@@ -63,6 +50,17 @@ $(window).on('load', function () {
         })
     })
 });
+
+function printEntry(val) {
+    return `
+    <h3 class="title mb-3">${val.title}</a></h3>       
+    <div class="desc text-left">                                    
+        <p>${val.description}</p>
+    </div>
+    <a class="more-link" href="${val.github}" target="_blank" ${val.github ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>Github Repo&nbsp;&nbsp;&nbsp;</a>
+    <a class="more-link" href="${val.report}" target="_blank" ${val.report ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>${val.report === "tba" ? 'Report coming soon!' : 'Report'}</a>                 
+    <a class="more-link" href="${val.npm}" target="_blank" ${val.npm ? '' : 'hidden'}><i class="fas fa-external-link-alt"></i>NPM</a>`
+}
 
 jQuery(document).ready(function ($) {
 
