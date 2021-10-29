@@ -5,7 +5,7 @@
             "description": "An AI, implemented using deep learning in a convolutional neural network, capable of learning the style of an arbitrary image and applying it to the content in another, arbitrary image. The network was implemented using Tensorflow in Python, running on a google cloud computing VM with a powerful GPU optimized for deep learning. Many generated images can be seen in the report.",
             "github": "https://github.com/veiyas/ARTisan",
             "image": "assets/images/projects/artisan.png",
-            "report": "tba"
+            "report": "https://raw.githubusercontent.com/veiyas/ARTisan/main/ARTisan.pdf"
         },
         {
             "title": "HDR and tone-mapping",
