@@ -1,4 +1,6 @@
 $(window).on('load', function () {
+    background_image_parallax($("body"), 0.2);
+    
     $('.level-bar-inner').each(function () {
         var itemWidth = $(this).data('level');
         $(this).animate({
@@ -114,9 +116,17 @@ jQuery(document).ready(function ($) {
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
     new GitHubCalendar("#github-graph", "veiyas", { responsive: true });
 
-
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
     GitHubActivity.feed({ username: "veiyas", selector: "#ghfeed" });
-
-
 });
+
+var background_image_parallax = function($object, multiplier){
+    multiplier = multiplier ? multiplier : 0.5;
+    var $doc = $(document);
+    $object.css({"background-attatchment" : "fixed"});
+    $(window).scroll(function(){
+      var from_top = $doc.scrollTop(),
+          bg_css = '0px ' + (multiplier * from_top * -1) + 'px';
+      $object.css({"background-position" : bg_css });
+    });
+  };
