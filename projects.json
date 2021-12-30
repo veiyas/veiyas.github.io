@@ -12,7 +12,7 @@
             "description": "An implementation of high dynamic range image acquisition and evaluation of different tone-mapping methods. Implemented in MATLAB. More examples and tone-mapped images can be seen in the report.",
             "github": "https://github.com/pannacotta98/hdr-tone-mapping",
             "image": "assets/images/projects/hdr.png",
-            "report": "tba"
+            "report": "https://raw.githubusercontent.com/veiyas/hdr-tone-mapping/main/HDR_Tone_Mapping_compressed.pdf"
         },
         {
             "title": "Binary KLV-data parser",
