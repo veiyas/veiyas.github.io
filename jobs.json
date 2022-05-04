@@ -1,6 +1,12 @@
 {
     "entries": [
         {
+            "jobTitle": "Master Thesis (Deep learning)",
+            "jobPlace": "Combitech",
+            "timespan": "January 2022 - June 2022",
+            "jobDescription": "Master thesis project exploring how the world can be recreated in 3D using satellite imagery and deep learning. From an input satellite image, the novel deep neural network predicts a semantic segmentation map, a boundary proximity signed heatmap and a heightmap. These three outputs can be combined with the input image in different ways to produce a 3D model of any arbitrary format."
+        },
+        {
             "jobTitle": "Software Engineering Internship",
             "jobPlace": "Maxar",
             "timespan": "June 2021 - August 2021",
