@@ -1,6 +1,12 @@
 {
     "entries": [
         {
+            "title": "The World in 3D - Master Thesis",
+            "description": "An AI, implemented using deep learning in a convolutional neural network, capable of estimating data useful for 3D-recreation from a single satellite or aerial image as input. The data estimation is split into three separate tasks: heightmaps, semantic segmentations and distance heatmaps.",
+            "image": "assets/images/projects/masterthesis.png",
+            "report": "http://diva-portal.org/smash/record.jsf?pid=diva2%3A1678349&dswid=9248"
+        },
+        {
             "title": "Art replicating AI",
             "description": "An AI, implemented using deep learning in a convolutional neural network, capable of learning the style of an arbitrary image and applying it to the content in another, arbitrary image. The network was implemented using Tensorflow in Python, running on a google cloud computing VM with a powerful GPU optimized for deep learning. Many generated images can be seen in the report.",
             "github": "https://github.com/veiyas/ARTisan",
