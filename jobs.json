@@ -1,6 +1,12 @@
 {
     "entries": [
         {
+            "jobTitle": "Software Engineer",
+            "jobPlace": "Edgeware AgileContent",
+            "timespan": "June 2022 - current",
+            "jobDescription": "Development of CDNs designed for media streaming services which require high performance. Core functionality is written in C++ with integration tests written in Python. Testing and deployment is all handled with Docker containers."
+        },
+        {
             "jobTitle": "Master Thesis (Deep learning)",
             "jobPlace": "Combitech",
             "timespan": "January 2022 - June 2022",
